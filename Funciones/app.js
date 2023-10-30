@@ -38,7 +38,7 @@ sumarAnon()
 
 //Ejercicio 7
 
-const flecha = (numero1, numero2) => (numero1 * numero2)
+const flecha = (numero1, numero2) => numero1 * numero2
 console.log(flecha(numeroA, numeroB))
 
 //Ejercicio 8
@@ -95,7 +95,7 @@ console.log(esMayorDeEdad(18))
 
 //Ejercicio 13
 
-const impuestoAPagar = (ingreso) => {
+const impuestoAPagar = ingreso => {
     if (ingreso <= 10000) {
         return ingreso * 0.1
     } else if (ingreso > 10000) {
@@ -157,8 +157,8 @@ registro(prompt("Ingrese su nombre: "))
 
 //Ejercicio 16
 
-const saludar2 = (nombre) => "Hola mi nombre es " + nombre
-const calcularEdad = (añoNacimiento) => {
+const saludar2 = nombre => "Hola mi nombre es " + nombre
+const calcularEdad = añoNacimiento => {
     const añoActual = new Date().getFullYear()
     return añoActual - añoNacimiento
 }
