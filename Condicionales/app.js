@@ -56,18 +56,18 @@ if (dato1 > dato2 && dato1 > dato3) {
 }
 
 //Ejercicio 7
-// switch (prompt("Ingrese un color:")) {
-//     case "rojo": {
-//         alert("El color de la pasión.")
-//     } break
-//     case "azul": {
-//         alert("El color del mar.")
-//     } break
-//     case "verde": {
-//         alert("El color de la naturaleza.")
-//     } break
-//     default: alert("No se ha seleccionado un color válido.")
-// }
+switch (prompt("Ingrese un color:")) {
+    case "rojo": {
+        alert("El color de la pasión.")
+    } break
+    case "azul": {
+        alert("El color del mar.")
+    } break
+    case "verde": {
+        alert("El color de la naturaleza.")
+    } break
+    default: alert("No se ha seleccionado un color válido.")
+}
 
 //Ejercicio 8
 let valor1 = Number(prompt("Ingrese el valor del primer número (del 1 al 100): "))
@@ -153,9 +153,9 @@ if (tuEdad >= 0 && tuEdad <= 12) {
     alert("Eres un adulto joven.")
 } else if (tuEdad > 45) {
     alert("Eres un anciano.")
-}else if(tuEdad>100){
+} else if (tuEdad > 100) {
     alert("¿En realidad tienes esa edad?")
-}else{
+} else {
     alert("Por favor ingrese un número válido (mayor a 0).")
 }
 
