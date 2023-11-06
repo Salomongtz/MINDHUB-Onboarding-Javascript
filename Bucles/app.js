@@ -148,7 +148,7 @@ const estudiante = {
     estudios: "Secundario"
 }
 for (const key in estudiante) {
-    if (Object.hasOwnProperty.call(estudiante, key)) {
+    if (key in estudiante) {
         console.log(key)
     }
 }
@@ -156,7 +156,7 @@ for (const key in estudiante) {
 // Ejercicio 14
 
 for (const key in estudiante) {
-    if (Object.hasOwnProperty.call(estudiante, key)) {
+    if (key in estudiante) {
         console.log(estudiante[key])
     }
 }
